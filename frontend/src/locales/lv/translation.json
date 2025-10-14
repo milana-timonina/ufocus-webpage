@@ -1,0 +1,260 @@
+{
+    "nav": { "about": "Par mums", "services": "Pakalpojumi", "prices": "Cenas", "contacts": "Kontakti" },
+    "cta": { "freeConsult": "PIESAKIES BEZMAKSAS KONSULTĀCIJAI!" },
+  
+    "header": {
+      "title": "Mēs <1>atbalstām</1> skolēnus katrā iestāšanās procesa solī."
+    },
+  
+    "about": {
+      "titleCaps": "PAR U-FOCUS",
+      "long": "Mēs esam komanda no vadošajām pasaules universitātēm, kas palīdzēs katrā pieteikuma posmā. Mūsu komandas locekļi ir sekmīgi iestājušies tādās universitātēs kā Duke, Cambridge, Hong Kong University, KTH u.c., un tagad dalās pieredzē, lai palīdzētu jums sasniegt mērķus."
+    },
+  
+    "why": {
+      "title": "KĀPĒC IZVĒLĒTIES MŪS?",
+      "cards": {
+        "personalized": {
+          "title": "Personalizēta pieeja",
+          "desc": "Katrs students ir atšķirīgs. Izstrādājam individuālus plānus un piedāvājam paketes, kas atbilst jūsu vajadzībām, stiprajām pusēm un mērķiem."
+        },
+        "tutoring": {
+          "title": "Iedziļināta apmācība",
+          "desc": "Panākumiem nepieciešama gudra vadība. Mūsu pasniedzēji palīdzēs uzlabot akadēmiskos rezultātus un attīstīties tālāk."
+        },
+        "team": {
+          "title": "Unikāla komanda",
+          "desc": "Mūs veido studenti no vadošajām universitātēm ar pirmās rokas pieredzi un vēlmi palīdzēt citiem."
+        },
+        "variety": {
+          "title": "Plašs pakalpojumu klāsts",
+          "desc": "U-Focus piedāvā pakalpojumus, kas uzlabo visus pieteikuma aspektus, tostarp akadēmisko sniegumu."
+        }
+      }
+    },
+  
+    "footer": {
+      "company": "UZŅĒMUMS",
+      "getInTouch": "SAZIŅAI",
+      "tagline": {
+        "long": "U-Focus piedāvā kvalitatītas apmācības, lai palīdzētu skolēniem izcelties mācībās. Komandā ir pieredzējuši pasniedzēji no vadošajām universitātēm (vismaz 3 gadu pieredze). Nodrošinām personalizētas un efektīvas nodarbības dažādos priekšmetos."
+      }
+    },
+  
+    "consult": {
+      "title": "PIESAKIES BEZMAKSAS KONSULTĀCIJAI!",
+      "subtitle": "Strādājam 24/7. Aizpildi veidlapu un mēs ar tevi sazināsimies e-pastā.",
+      "fullname": "Vārds, uzvārds",
+      "fullname_ph": "Vārds, uzvārds",
+      "email": "E-pasts",
+      "email_ph": "Tavs e-pasts",
+      "grade": "Klase",
+      "grade_ph": "Tava pašreizējā klase",
+      "day": "Izvēlies datumu",
+      "time": "Izvēlies vēlamo laiku",
+      "time_ph": "Izvēlies laika posmu konsultācijai",
+      "selected_title": "Izvēlētais datums un laiks:",
+      "not_selected": "Nav izvēlēts",
+      "cta": "PIESAKIES BEZMAKSAS KONSULTĀCIJAI!"
+    },
+    
+    "services": {
+          "title": "Pakalpojumi",
+          "subtitle": "Šeit atradīsi visus mūsu pakalpojumus un to aprakstus:",
+          "items": [
+            {
+              "title": "Universitāšu atlase",
+              "content": "U-Focus komanda sagatavos personalizētu 8–10 universitāšu sarakstu, ņemot vērā tavas vēlmes, akadēmiskos rezultātus un ārpusskolas aktivitātes. Sarakstā būs ‘reach’, mērķa un drošās izvēles. Sākumā veiksim 30 minūšu Zoom interviju un nosūtīsim anketu profila analīzei. Pēc tam e-pastā saņemsi rezultātus un rekomendācijas, ko apspriedīsim 1–3 tiešsaistes tikšanās reizēs. Ja ar variantu kopumu nebūsi apmierināts, vienosimies par papildu tikšanos un veiksim izmaiņas."
+            },
+            {
+              "title": "Iestāšanās stratēģijas plānošana",
+              "content": "Pēc piemērotu universitāšu izvēles izveidosim personalizētu laika plānu: testu sagatavošanos, eseju termiņus, stipendiju pieteikumus, standartizēto pārbaužu reģistrāciju u.c. Rīkosim tiešsaistes tikšanās, sūtīsim atgādinājumus un sekosim progresam. Sākam ar Zoom tikšanos, lai saprastu vajadzības; sagatavojam detalizētu grafiku; turpinām saziņu visa procesa garumā (ik pēc 2 nedēļām vai reizi mēnesī) un atgādinām par termiņiem."
+            },
+            {
+              "title": "Eseju pilnveide",
+              "content": "Palīdzība ar motivācijas un papildesejām: ideju ģenerēšana, struktūra, rediģēšana un gala kvalitātes pārbaude. Sākumā – Zoom tikšanās ar ideju kartēšanu. Tālāk – iknedēļas Zoom, lai vērtētu progresu un iedotu ieteikumus. Pēc pabeigšanas eseju nododam redaktoram gala labojumiem. Process parasti ~4 nedēļas (iespējams saīsināt). Konkrētie soļi atkarīgi no eseju tipa."
+            },
+            {
+              "title": "Rekomendāciju vēstuļu izstrāde",
+              "content": "Konsultējam par rekomendētāju izvēli un pieeju viņu uzrunāšanai. Ja rekomendētāji ir atvērti atgriezeniskajai saitei, sniedzam augsta līmeņa ieteikumus studentam un/vai pašiem rekomendētājiem. Parasti 2–3 Zoom tikšanās, kurās apkopojam pieejamos resursus un sagatavojam materiālus."
+            },
+            {
+              "title": "CV pārskatīšana un vadlīnijas",
+              "content": "Izvērtējam CV, definējam tavu unikālo pieteikuma virzienu un sastādām plānu profila stiprināšanai (akadēmika, aktivitātes, sasniegumi). Sniedzam ieteikumus par mācībām un sagatavojam individuālu mācību plānu. Process ietver anketu, Zoom tikšanos, ieteikumu sarakstu un ikmēneša progresa uzraudzību."
+            },
+            {
+              "title": "Brīvprātīgā darba konsultācijas",
+              "content": "Palīdzam izveidot spēcīgu brīvprātīgā darba pieredzi: piedāvājam aktivitāšu sarakstu, konsultējam par pašas organizācijas izveidi, iespējām ārzemēs un Erasmus+ projektiem. Sākumā izstrādājam darbības plānu un stratēģiju (Zoom), pēc tam – regulārs atbalsts tiešsaistē un e-pastā bez stingra ierobežojuma."
+            },
+            {
+              "title": "Interviju sagatavošana",
+              "content": "Nodrošinām visu nepieciešamo, lai pārliecinoši uzstātos iestāšanās intervijās: praksi, padomus, norādes un “aklās intervijas”. Programma ietver sagatavošanās mock interviju, 2 Zoom tikšanās un ‘Blind’ interviju (bez priekšzināšanām par kandidātu), pēc kuras sniedzam objektīvu atgriezenisko saiti un uzlabojumu plānu."
+            },
+            {
+              "title": "Iestājpārbaudījumu sagatavošana",
+              "content": "Divu mēnešu laikā palīdzam gatavoties rakstiskajiem iestājeksāmeniem: veicam testa mock, analizējam rezultātus un organizējam 4–6 Zoom nodarbības vajadzīgo tēmu stiprināšanai, pēc tam – noslēguma pārbaude un papildu tikšanās."
+            },
+            {
+              "title": "Privātstundas",
+              "content": "Palīdzam sagatavoties skolai, valsts eksāmeniem un citiem pārbaudījumiem. Nodarbības ilgums – 60 min. Priekšmeti: Matemātika (EN, RU, LV), Fizika (RU, LV), Ķīmija (LV, RU), Angļu val. (EN, RU, LV), Krievu val. (LV, EN), Ekonomika (LV, EN). Nodarbības notiek Zoom platformā."
+            },
+            {
+              "title": "Pieteikumu pārskatīšana",
+              "content": "Noslēguma pārbaude visiem pieteikumiem. Privātuma dēļ darbs notiek koplietotā ekrānā ar studentu kontroli. Parasti 1–3 Zoom tikšanās."
+            },
+            {
+              "title": "Pārcelšanās uz ārzemēm (pirmsizbraukšanas vadlīnijas, vīza, mājoklis)",
+              "content": "Studentiem, kuri jau ir uzņemti un gatavojas pārcelties: palīdzība mājokļa atrašanā budžeta ietvaros, vīzas kārtošanā (ja nepieciešams), izdevīgāko lidojumu izvēlē un citu jautājumu risināšanā. Nodrošinām nepieciešamo Zoom tikšanos skaitu un e-pasta atbalstu."
+            }
+          ]},
+
+    "prices": {
+      "title": "Cenas un paketes",
+      "p1": {
+        "header": "PAKETE NR. 1: BASIC",
+        "desc": "Pakalpojumu komplekts studentiem, kuri jau ir izvēlējušies universitātes, kurām pieteikties.",
+        "items": [
+          "Iestāšanās stratēģijas plānošana",
+          "Eseju pilnveide",
+          "CV pārskatīšana un vadlīnijas",
+          "Interviju sagatavošana",
+          "Iestājpārbaudījumu sagatavošana (var aizstāt ar citiem starptautiskiem eksāmeniem)",
+          "5 privātstundas jebkurā priekšmetā"
+        ],
+        "price": "650 EUR",
+        "note": "(Līdz 6 universitātēm, katra papildu +100 EUR)"
+      },
+      "p2": {
+        "header": "PAKETE NR. 2: VIDUSSKOLA (9.–11. klase)",
+        "items": [
+          "“University Match”",
+          "Iestāšanās stratēģijas plānošana (var aizstāt ar termiņu pārvaldību)",
+          "CV pārskatīšana un vadlīnijas",
+          "Brīvprātīgā darba konsultācijas",
+          "5 privātstundas jebkurā priekšmetā",
+          "Personalizētas līderības darbnīcas"
+        ],
+        "price": "500 EUR"
+      },
+      "p3": {
+        "header": "Pakete Nr. 3: Ārpusklases aktivitātes",
+        "items": [
+          "Konsultācijas un uzraudzība",
+          "Iestāšanās stratēģijas plānošana (var aizstāt ar termiņu pārvaldību)",
+          "CV pārskatīšana un vadlīnijas",
+          "Brīvprātīgā darba konsultācijas"
+        ],
+        "price": "250 EUR"
+      },
+      "p4": {
+        "header": "Pakete Nr. 4: Akadēmiskā virzība",
+        "items": [
+          "“University Match”",
+          "Iestāšanās stratēģijas plānošana",
+          "Eseju pilnveide",
+          "Interviju sagatavošana",
+          "Iestājpārbaudījumu sagatavošana",
+          "Pieteikumu pārskatīšana",
+          "5 privātstundas jebkurā priekšmetā"
+        ],
+        "price": "700 EUR",
+        "note": "(Līdz 6 universitātēm, katra papildu +100 EUR)"
+      },
+      "p5": {
+        "header": "Pakete Nr. 5: U-Focus",
+        "items": [
+          "“University Match”",
+          "Iestāšanās stratēģijas plānošana",
+          "Eseju pilnveide",
+          "Rekomendāciju vēstuļu izstrāde",
+          "CV pārskatīšana un vadlīnijas",
+          "Brīvprātīgā darba konsultācijas",
+          "Interviju sagatavošana",
+          "Iestājpārbaudījumu sagatavošana",
+          "Pieteikumu pārskatīšana",
+          "7 privātstundas jebkurā priekšmetā",
+          "Pārcelšanās uz ārzemēm (atbalsts)"
+        ],
+        "price": "1500 EUR",
+        "note": "(Līdz 8 universitātēm, katra papildu +100 EUR)"
+      },
+      "cta": { "buy": "Nopirkt paketi!", "consult": "Pieteikties bezmaksas konsultācijai!" },
+  
+      "sep": {
+        "title": "Atsevišķas iespējas un cenas",
+        "lead": "Papildinājums, kas ved uz privātstundu lapu",
+        "items": [
+          "Akadēmiska izvērtēšana un atgriezeniskā saite",
+          "Privātstundas divreiz nedēļā izvēlētajos priekšmetos"
+        ],
+        "price": "150 EUR / mēnesī"
+      },
+  
+      "list": [
+        { "label": "“University Match”", "price": "130 EUR" },
+        { "label": "Iestāšanās stratēģijas plānošana (1–3 universitātes)", "price": "110 EUR", "tail": "(katra papildu 25 EUR)" },
+        { "label": "Eseju pilnveide", "price": "110 EUR" },
+        { "label": "CV pārskatīšana un vadlīnijas", "price": "100 EUR" },
+        { "label": "Brīvprātīgā darba konsultācijas", "price": "100 EUR" },
+        { "label": "Interviju sagatavošana", "price": "130 EUR" },
+        { "label": "Iestājpārbaudījumu sagatavošana", "price": "200 EUR" },
+        { "label": "Pieteikuma pārskatīšana (1 universitāte)", "price": "50 EUR" },
+        { "label": "Pieteikuma pārskatīšana (3 universitātes)", "price": "100 EUR" },
+        { "label": "Pieteikuma pārskatīšana (5 universitātes)", "price": "150 EUR" },
+        { "label": "Pārcelšanās atbalsts no", "price": "100 EUR" },
+        { "label": "1 privātstunda jebkurā priekšmetā", "price": "25 EUR" },
+        { "label": "5 privātstundas jebkurā priekšmetā", "price": "100 EUR" }
+      ],
+  
+      "form": {
+        "title": "Aizpildi pieteikumu un izvēlies vēlamo paketi",
+        "subtitle": "Esam pieejami 24/7. Pēc pieteikuma saņemšanas nosūtīsim rēķina un pakalpojuma sniedzēja informāciju.",
+        "name": "Vārds, uzvārds",
+        "name_ph": "Jānis Bērziņš",
+        "email": "E-pasts",
+        "email_ph": "piemers@gmail.com",
+        "choosePackage": "Izvēlies vēlamo paketi",
+        "package_ph": "Izvēlies paketi",
+        "packages": [
+          { "label": "Pakete Nr. 1: Basic", "value": "PACKAGE NO 1: Basic" },
+          { "label": "Pakete Nr. 2: Vidusskola (9.–11. klase)", "value": "PACKAGE NO 2: High School (grade 9-11)" },
+          { "label": "Pakete Nr. 3: Ārpusklases aktivitātes", "value": "PACKAGE NO 3: Extra-curricular" },
+          { "label": "Pakete Nr. 4: Akadēmiskā virzība", "value": "PACKAGE NO 4: Academic Guidance" },
+          { "label": "Pakete Nr. 5: U-Focus", "value": "PACKAGE NO 5: U-Focus" }
+        ],
+        "chooseAddon": "Izvēlies papildu iespēju",
+        "addon_ph": "Izvēlies papildu iespēju",
+        "addons": [
+          { "label": "Akadēmisks izvērtējums un privātstundas 2× nedēļā", "value": "Academic evaluation and tutoring service twice a week in selected subjects" },
+          { "label": "“University Match”", "value": "University Match" },
+          { "label": "Iestāšanās stratēģija (1–3 universitātes)", "value": "Admissions Strategy Planning (1-3 universities)" },
+          { "label": "Eseju pilnveide", "value": "College Essay Refinement" },
+          { "label": "CV pārskatīšana un vadlīnijas", "value": "Resume Review and Guidance" },
+          { "label": "Brīvprātīgā darba konsultācijas", "value": "Volunteering Experience Counseling" },
+          { "label": "Interviju sagatavošana", "value": "Interview Preparation" },
+          { "label": "Iestājpārbaudījumu sagatavošana", "value": "Entrance Exam Preparation" },
+          { "label": "Pieteikuma pārskatīšana (1 universitāte)", "value": "Application Review (1 university)" },
+          { "label": "Pieteikuma pārskatīšana (3 universitātes)", "value": "Application Review (3 universities)" },
+          { "label": "Pieteikuma pārskatīšana (5 universitātes)", "value": "Application Review (5 universities)" },
+          { "label": "Pārcelšanās atbalsts", "value": "Moving Abroad Services" },
+          { "label": "1 privātstunda", "value": "1 Tutoring lesson in any subject" },
+          { "label": "5 privātstundas", "value": "5 Tutoring lessons in any subject" }
+        ]
+      },
+  
+      "purchase": {
+        "preview_ok": "Pieteikums izskatās veiksmīgs (priekšskatījums).",
+        "sent": "E-pasts nosūtīts!",
+        "error": "Neizdevās nosūtīt. Mēģini vēlreiz."
+      }
+    },
+        "contacts": {
+          "title": "Kontakti",
+          "instagram_handle": "u-focus",
+          "facebook_handle": "u-focus",
+          "email_line": "Ja palikuši kādi neatbildēti jautājumi, raksti mums uz e-pastu: ufocus.education@gmail.com",
+          "reply_time": "Aptuvenais atbildes laiks — 1 diena."
+        }
+      
+}
+  

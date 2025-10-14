@@ -1,0 +1,24 @@
+/* Only affects small screens; keeps your desktop look */
+@media (max-width: 480px) {
+    .consult-form { padding: 12px; }
+    .consult-form .row,
+    .consult-form .columns,
+    .consult-form .two-cols {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .consult-form input,
+    .consult-form select,
+    .consult-form textarea {
+      width: 100%;
+      min-height: 44px;
+    }
+    .consult-form .actions,
+    .consult-form .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+  

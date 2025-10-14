@@ -1,144 +1,125 @@
 import React from 'react';
 import './Prices.css';
 import { assets } from '../../assets/assets';
+import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
-const Prices = () => {
+export default function Prices() {
+  const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const toConsultOnHome = (e) => {
+    e.preventDefault();
+    // set a one-time target for the next page load
+    sessionStorage.setItem('scrollTarget', 'consult');
+    navigate('/'); // go to homepage; Layout will scroll to #consult
+  };
+
+  const toPurchaseHere = (e) => {
+    e.preventDefault();
+    const el = document.getElementById('purchase');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <div className="packages-container">
-      <h1>Prices and Packages</h1>
-      {/* Package 1: Basic */}
+      <h1>{t('prices.title')}</h1>
+
+      {/* Package 1 */}
       <div className="package-block">
-        <div className="package-header">PACKAGE NO 1: BASIC</div>
+        <div className="package-header">{t('prices.p1.header')}</div>
         <div className="package-content">
           <div className="package-image">
             <img src={assets.variety_of_services} alt="Package 1" />
           </div>
           <div className="package-details">
-            <p>
-              This service compilation is perfect for a student who has already chosen
-              universities to apply to.
-            </p>
+            <p>{t('prices.p1.desc')}</p>
             <ul>
-              <li>Admissions Strategy Planning</li>
-              <li>College essay Refinement</li>
-              <li>Resume Review and Guidance</li>
-              <li>Interview Preparation</li>
-              <li>Entrance Exam Preparation (can be substituted with other International examinations)</li>
-              <li>5 Tutoring lessons in any subject</li>
+              {t('prices.p1.items', { returnObjects: true }).map((li, i) => <li key={i}>{li}</li>)}
             </ul>
             <div className="package-price">
-              650 EUR <span>(Up to 6 universities, each additional 100 EUR)</span>
+              {t('prices.p1.price')} <span>{t('prices.p1.note')}</span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Package 2: High School */}
+      {/* Package 2 */}
       <div className="package-block">
-        <div className="package-header">PACKAGE NO 2: HIGH SCHOOL (GRADE 9-11)</div>
+        <div className="package-header">{t('prices.p2.header')}</div>
         <div className="package-content">
           <div className="package-image">
             <img src={assets.high_school} alt="Package 2" />
           </div>
           <div className="package-details">
             <ul>
-              <li>“University Match”</li>
-              <li>Admissions Strategy Planning (can be substituted with Timeline Management)</li>
-              <li>Resume Review and Guidance</li>
-              <li>Volunteering Experience Counseling</li>
-              <li>5 Tutoring lessons in any subject</li>
-              <li>Personalized workshops on leadership</li>
+              {t('prices.p2.items', { returnObjects: true }).map((li, i) => <li key={i}>{li}</li>)}
             </ul>
-            <div className="package-price">500 EUR</div>
+            <div className="package-price">{t('prices.p2.price')}</div>
           </div>
         </div>
       </div>
 
-      {/* Package 3: Extra-curricular */}
+      {/* Package 3 */}
       <div className="package-block">
-        <div className="package-header">Package no 3: Extra-curricular</div>
+        <div className="package-header">{t('prices.p3.header')}</div>
         <div className="package-content">
           <div className="package-image">
             <img src={assets.extra_curricular} alt="Package 3" />
           </div>
           <div className="package-details">
             <ul>
-              <li>Guidance</li>
-              <li>Admissions Strategy Planning (can be substituted with Timeline Management)</li>
-              <li>Resume Review and Guidance</li>
-              <li>Volunteering Experience Counseling</li>
+              {t('prices.p3.items', { returnObjects: true }).map((li, i) => <li key={i}>{li}</li>)}
             </ul>
-            <div className="package-price">250 EUR</div>
+            <div className="package-price">{t('prices.p3.price')}</div>
           </div>
         </div>
       </div>
 
-
-      {/* Package no 4: Academic Guidance */}
+      {/* Package 4 */}
       <div className="package-block">
-        <div className="package-header">Package no 4: Academic Guidance</div>
+        <div className="package-header">{t('prices.p4.header')}</div>
         <div className="package-content">
           <div className="package-image">
             <img src={assets.academic_guidance} alt="Package 4" />
           </div>
           <div className="package-details">
             <ul>
-              <li>“University Match”</li>
-              <li>Admissions Strategy Planning</li>
-              <li>College Essay Refinement</li>
-              <li>Interview Preparation</li>
-              <li>Entrance Exam Preparation</li>
-              <li>Application Review</li>
-              <li>5 Tutoring lessons in any subject</li>
+              {t('prices.p4.items', { returnObjects: true }).map((li, i) => <li key={i}>{li}</li>)}
             </ul>
-            <div className="package-price">700 EUR
-            <span>(Up to 6 universities, each additional 100 EUR)</span>
+            <div className="package-price">
+              {t('prices.p4.price')} <span>{t('prices.p4.note')}</span>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Package no 5: U-Focus */}
+      {/* Package 5 */}
       <div className="package-block">
-        <div className="package-header">Package no 5: U-Focus</div>
+        <div className="package-header">{t('prices.p5.header')}</div>
         <div className="package-content">
           <div className="package-image">
             <img src={assets.u_focus} alt="Package 5" />
           </div>
           <div className="package-details">
             <ul>
-              <li>“University Match”</li>
-              <li>Admissions Strategy Planning</li>
-              <li>College Essay Refinement</li>
-              <li>Letters of Recommendation Development</li>
-              <li>Resume Review and Guidance</li>
-              <li>Volunteering Experience Counseling</li>
-              <li>Interview Preparation</li>
-              <li>Entrance Exam Preparation</li>
-              <li>Application Review</li>
-              <li>7 Tutoring lessons in any subject</li>
-              <li>Moving Abroad Services</li>
+              {t('prices.p5.items', { returnObjects: true }).map((li, i) => <li key={i}>{li}</li>)}
             </ul>
-            <div className="package-price">1500 EUR
-            <span>(Up to 8 universities, each additional 100 EUR)</span>
+            <div className="package-price">
+              {t('prices.p5.price')} <span>{t('prices.p5.note')}</span>
             </div>
           </div>
         </div>
       </div>
 
       <div className="buttons-price">
-
-      <button type="submit" className="buying-button">
-            BUY YOUR PACKAGE!
-      </button>
-
-      <button type="submit" className="submit-button1">
-            BOOK A FREE CONSULTATION!
-      </button>
-
+        <button type="button" className="buying-button" onClick={toPurchaseHere}>
+          {t('prices.cta.buy')}
+        </button>
+        <button type="button" className="submit-button1" onClick={toConsultOnHome}>
+          {t('prices.cta.consult')}
+        </button>
       </div>
     </div>
   );
-};
-
-export default Prices;
+}

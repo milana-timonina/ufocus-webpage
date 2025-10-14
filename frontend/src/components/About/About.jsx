@@ -1,17 +1,18 @@
-import React from 'react'
-import './About.css'
+import React from 'react';
+import './About.css';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className='about'>
       <div className="about-block">
-        <h1>ABOUT U-FOCUS</h1>
-        <p>
-          We are a team of accomplished students from leading global universities dedicated to guiding you through every stage of the university application process. Each U-Focus staff member has demonstrated exceptional performance in securing admissions to prestigious institutions such as Duke, Cambridge, Hong Kong University, KTH, and others. We are now poised to share our expertise to assist you in pursuing your educational aspirations.
-        </p>
+        <h1>{t('about.titleCaps')}</h1>
+        <p>{t('about.long')}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

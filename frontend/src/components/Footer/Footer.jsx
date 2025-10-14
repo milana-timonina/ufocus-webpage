@@ -1,51 +1,52 @@
-import React from 'react'
-import './Footer.css'
-import { assets } from '../../assets/assets'
+import React from 'react';
+import './Footer.css';
+import { assets } from '../../assets/assets';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
-const Footer = () => {
+export default function Footer() {
+  const { t } = useTranslation();
+
   return (
-    <div className='footer' id='footer'>
-        <div className="footer-content">
-            <div className="footer-content-left">
-                <img src={assets.logo_white} alt="" />
-                <p>At U-Focus, we offer high-quality tutoring services designed to help students excel in their academic pursuits. Our team consists of experienced tutors from top universities, each with at least three years of teaching experience. We provide personalized and effective lessons in a variety of subjects to meet the diverse needs of our students.</p>
-                <div className="footer-social-icons">
-                    <img src={assets.facebook_white} alt='facebook' />
-                    <img src={assets.instagram_white} alt='instagram' />
-                </div>
+    <div className="footer" id="footer">
+      <div className="footer-content">
+        {/* LEFT: logo + paragraph + socials */}
+        <div className="footer-content-left">
+          <img src={assets.logo_white} alt="U-Focus" />
+          <p>{t('footer.tagline.long')}</p>
+          <div className="footer-social-icons">
+              <a href="https://instagram.com/ufocus_admissions" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <img src={assets.instagram_white} alt="Instagram" />
+              </a>
+              <a href="https://facebook.com/ufocus_admissions" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <img src={assets.facebook_white} alt="Facebook" />
+              </a>
             </div>
 
-            <div className="footer-content-center">
-                <h3>COMPANY</h3>
-                <ul>
-                  <li>
-                    <NavLink to="/" onClick={() => window.scrollTo(0, 0)}>About us</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/services" onClick={() => window.scrollTo(0, 0)}>Services</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/prices" onClick={() => window.scrollTo(0, 0)}>Prices</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/contacts" onClick={() => window.scrollTo(0, 0)}>Contacts</NavLink>
-                  </li>
-                </ul>
-            </div>
-
-            <div className="footer-content-right">
-              <h3>GET IN TOUCH</h3>
-              <ul>
-                <li>+1-271-567-856</li>
-                <li>ufocus.education@gmail.com</li>
-              </ul>
-            </div>
         </div>
-        <hr />
-        <p className="footer-copyright">Copyright 2024. Ufocus Team </p>
-    </div>
-  )
-}
 
-export default Footer
+        {/* CENTER: COMPANY (puts the 3rd column back) */}
+        <div className="footer-content-center">
+          <h3>{t('footer.company')}</h3>
+          <ul>
+            <li><NavLink to="/" onClick={() => window.scrollTo(0, 0)}>{t('nav.about')}</NavLink></li>
+            <li><NavLink to="/services" onClick={() => window.scrollTo(0, 0)}>{t('nav.services')}</NavLink></li>
+            <li><NavLink to="/prices" onClick={() => window.scrollTo(0, 0)}>{t('nav.prices')}</NavLink></li>
+            <li><NavLink to="/contacts" onClick={() => window.scrollTo(0, 0)}>{t('nav.contacts')}</NavLink></li>
+          </ul>
+        </div>
+
+        {/* RIGHT: GET IN TOUCH (email only, phone removed) */}
+        <div className="footer-content-right">
+          <h3>{t('footer.getInTouch')}</h3>
+          <ul>
+            <li>ufocus.education@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+      <p className="footer-copyright">© 2024 U-Focus</p>
+    </div>
+  );
+}

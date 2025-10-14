@@ -1,0 +1,261 @@
+{
+    "nav": { "about": "About us", "services": "Services", "prices": "Prices", "contacts": "Contacts" },
+    "cta": { "freeConsult": "BOOK A FREE CONSULTATION!" },
+  
+    "header": {
+      "title": "We <1>empower</1> scholars during every step of the university admissions process."
+    },
+  
+    "about": {
+      "titleCaps": "ABOUT U-FOCUS",
+      "long": "We are a team of accomplished students from leading global universities dedicated to guiding you through every stage of the university application process. Each U-Focus staff member has demonstrated exceptional performance in securing admissions to prestigious institutions such as Duke, Cambridge, Hong Kong University, KTH, and others. We are now poised to share our expertise to assist you in pursuing your educational aspirations."
+    },
+  
+    "why": {
+      "title": "WHY CHOOSE US?",
+      "cards": {
+        "personalized": {
+          "title": "Personalized Approach",
+          "desc": "We cherish each of our students and acknowledge that each student's journey to university is unique. We develop personalized plans to reach the highest potential and offer packages tailored to your needs, strengths, and aspirations."
+        },
+        "tutoring": {
+          "title": "Insightful Tutoring",
+          "desc": "Achieving academic excellence requires insightful guidance. Our tutors are knowledgeable and committed to helping you excel in your studies and beyond."
+        },
+        "team": {
+          "title": "Unique Team",
+          "desc": "Our team consists of inspired students from top universities who bring firsthand experience and a passion for helping others achieve their academic dreams."
+        },
+        "variety": {
+          "title": "Variety of Services",
+          "desc": "U-Focus provides services to improve every aspect of your application, including academic performance."
+        }
+      }
+    },
+  
+    "footer": {
+      "company": "COMPANY",
+      "getInTouch": "GET IN TOUCH",
+      "tagline": {
+        "long": "At U-Focus, we offer high-quality tutoring services designed to help students excel in their academic pursuits. Our team consists of experienced tutors from top universities, each with at least three years of teaching experience. We provide personalized and effective lessons in a variety of subjects to meet the diverse needs of our students."
+      }
+    },
+  
+    "consult": {
+      "title": "START BY BOOKING YOUR FREE CONSULTATION!",
+      "subtitle": "We are available 24/7. Fill out the form carefully and we will contact you via e-mail.",
+      "fullname": "Your full name",
+      "fullname_ph": "Your full name",
+      "email": "Your e-mail",
+      "email_ph": "Your e-mail",
+      "grade": "Your grade",
+      "grade_ph": "Your current grade",
+      "day": "Choose the day",
+      "time": "Choose preferred time",
+      "time_ph": "Select time period, when we will arrange consultation",
+      "selected_title": "Selected Day and Time:",
+      "not_selected": "Not selected",
+      "cta": "BOOK YOUR FREE CONSULTATION!"
+    },
+
+    "services": {
+      "title": "Services",
+      "subtitle": "Here you can find all services that we offer and their description:",
+      "items": [
+        {
+          "title": "University Match",
+          "content": "The U-Focus team will create a personalized list of 8-10 universities based on the student’s preferences, academic performance, and extracurricular achievements. The list will include 'reach,' target, and safety options. To get started, we will conduct a 30-minute Zoom interview and send out a questionnaire, based on which we will analyze the student’s profile. After that, we will send the results and recommendations via email and discuss them in 1-3 online meetings. If the student is not satisfied with the options provided, we will arrange a follow-up meeting to make substitutions."
+        },
+        {
+          "title": "Admissions Strategy Planning",
+          "content": "After selecting suitable universities, we will dive deep into admission process schedules and create personalized timelines, including test preparations, essay writing deadlines, the scholarship application process, standardized test application and preparation, and every required condition. We will conduct online meetings, send reminders, and discuss every step of the application process. With this service, students will never miss a deadline and will perform up to their potential. This service is provided by conducting an initial Zoom meeting to understand the student’s needs. We will provide a timeline with suggestions, addressing each aspect of the application. U-Focus will stay in touch during the whole process, initiating Zoom meetings every two weeks or once a month, depending on the student’s preferences, and sending reminders about important deadlines."
+        },
+        {
+          "title": "College Essay Refinement",
+          "content": "This service encompasses assistance with college essays, supplemental essays, and personal statement development. The U-Focus team will guide students through brainstorming, drafting, editing, and evaluating each essay required by their target institutions. This service is provided by conducting an initial Zoom meeting, where the student, with the help of our experts, decides on the topic of their essay using idea-mapping and brainstorming techniques. The student then proceeds to work on the essay, with weekly Zoom meetings to monitor progress, make suggestions, and propose improvements. When the essay is finished, it is sent to the editor, who makes the final retouches. The process takes about 4 weeks, but it is possible to shorten it. The services provided depend on the type of essay required."
+        },
+        {
+          "title": "Letters of Recommendation Development",
+          "content": "We can guide students on choosing recommenders and strategies for approaching and soliciting recommendations. In instances where recommenders are open to feedback, we provide high-level guidance to students and/or directly to the recommenders. This service is provided during 2-3 Zoom meetings, where the student describes available resources."
+        },
+        {
+          "title": "Resume Review and Guidance",
+          "content": "Our team will review every aspect of the student’s resume and develop a plan to strengthen their profile. We determine the student’s unique application angle and discuss the available resources to develop it further. Academic performance will be analyzed, and the team will make tutoring suggestions as well as draft a personalized study plan. This service is provided by sending out a lengthy questionnaire and conducting a Zoom meeting to understand the unique aspects of the applicant’s personality. We then create a list of suggestions and discuss them in a Zoom meeting. Each month, we monitor the student’s progress and suggest improvements."
+        },
+        {
+          "title": "Volunteering Experience Counseling",
+          "content": "Volunteering is an excellent addition to any application. With the help of our team, students will receive guidance on how to become exceptional volunteers. We will provide a list of available volunteering resources, and consult on starting their own volunteering organization, volunteering abroad, and Erasmus+ projects they can join. This will be done through online meetings and email follow-ups. For this service, the support of our team is not limited, ensuring that students are ready to achieve outstanding accomplishments. This service is provided by an initial Zoom meeting to map out the action plan and create a volunteering strategy, where our team, using available resources, creates a list of activities and opportunities for the student to engage in. This includes volunteering abroad, community programs, and many others."
+        },
+        {
+          "title": "Interview Preparation",
+          "content": "Performing well in admissions interviews is a crucial step on the way to getting accepted to the dream university. With the help of our team, students will have all the key resources, such as practice, guidance, tips, and “Blind Interviews,” to perform their best on the day of the actual interview. This service is provided by conducting a preparatory Zoom mock interview, 2 Zoom meetings, and a “Blind” interview, where the member of the U-Focus team does not have access to any prior history or details of the client, so the expert can give impartial feedback to create a list of suggestions and an improvement strategy."
+        },
+        {
+          "title": "Entrance Exam Preparation",
+          "content": "During two months, the U-Focus team will help students prepare for entrance examinations. We will conduct mock exams based on actual written tests, analyze the results, and provide tutoring lessons to strengthen students’ knowledge of required topics. This service is provided by conducting a mock exam, analyzing the results, conducting 4-6 Zoom tutoring lessons depending on the need, and a final mock examination with an additional Zoom meeting."
+        },
+        {
+          "title": "Tutoring Services",
+          "content": "The U-Focus team members are experienced tutors and are ready to help prepare for school, State, or any other examinations. Each lesson’s duration is 60 minutes. Subjects: Mathematics (English, Russian, Latvian); Physics (Russian, Latvian); Chemistry (Latvian, Russian); English (English, Russian, Latvian); Russian (Latvian, English); Economics (Latvian, English). The lessons are conducted online using the Zoom platform."
+        },
+        {
+          "title": "Application Review",
+          "content": "This service includes final reviews of each of the student’s applications. We value our future students’ privacy, so these reviews will be done on a shared screen with students in control, to ensure that privacy concerns are strictly complied with. This service is provided during 1-3 Zoom meetings."
+        },
+        {
+          "title": "Moving Abroad Services (Pre-Departure Guidance, Visa Application Help, Locating an Apartment)",
+          "content": "This service is crafted for students who are already admitted to an institution and are preparing to embark on the journey of a lifetime. We offer help with finding a place to live within the student’s budget, assisting with visa procedures (if necessary), finding the best airfare options, and addressing any additional concerns related to moving abroad. This service is provided by conducting the necessary number of Zoom meetings and email support."
+        }
+      ]
+    },
+        "prices": {
+          "title": "Prices and Packages",
+          "p1": {
+            "header": "PACKAGE NO 1: BASIC",
+            "desc": "This service compilation is perfect for a student who has already chosen universities to apply to.",
+            "items": [
+              "Admissions Strategy Planning",
+              "College Essay Refinement",
+              "Resume Review and Guidance",
+              "Interview Preparation",
+              "Entrance Exam Preparation (can be substituted with other International examinations)",
+              "5 Tutoring lessons in any subject"
+            ],
+            "price": "650 EUR",
+            "note": "(Up to 6 universities, each additional 100 EUR)"
+          },
+          "p2": {
+            "header": "PACKAGE NO 2: HIGH SCHOOL (GRADE 9-11)",
+            "items": [
+              "“University Match”",
+              "Admissions Strategy Planning (can be substituted with Timeline Management)",
+              "Resume Review and Guidance",
+              "Volunteering Experience Counseling",
+              "5 Tutoring lessons in any subject",
+              "Personalized workshops on leadership"
+            ],
+            "price": "500 EUR"
+          },
+          "p3": {
+            "header": "Package no 3: Extra-curricular",
+            "items": [
+              "Guidance",
+              "Admissions Strategy Planning (can be substituted with Timeline Management)",
+              "Resume Review and Guidance",
+              "Volunteering Experience Counseling"
+            ],
+            "price": "250 EUR"
+          },
+          "p4": {
+            "header": "Package no 4: Academic Guidance",
+            "items": [
+              "“University Match”",
+              "Admissions Strategy Planning",
+              "College Essay Refinement",
+              "Interview Preparation",
+              "Entrance Exam Preparation",
+              "Application Review",
+              "5 Tutoring lessons in any subject"
+            ],
+            "price": "700 EUR",
+            "note": "(Up to 6 universities, each additional 100 EUR)"
+          },
+          "p5": {
+            "header": "Package no 5: U-Focus",
+            "items": [
+              "“University Match”",
+              "Admissions Strategy Planning",
+              "College Essay Refinement",
+              "Letters of Recommendation Development",
+              "Resume Review and Guidance",
+              "Volunteering Experience Counseling",
+              "Interview Preparation",
+              "Entrance Exam Preparation",
+              "Application Review",
+              "7 Tutoring lessons in any subject",
+              "Moving Abroad Services"
+            ],
+            "price": "1500 EUR",
+            "note": "(Up to 8 universities, each additional 100 EUR)"
+          },
+          "cta": { "buy": "BUY YOUR PACKAGE!", "consult": "BOOK A FREE CONSULTATION!" },
+      
+          "sep": {
+            "title": "Separate Options and Prices",
+            "lead": "Addition that takes to the Tutoring services page",
+            "items": [
+              "Academic evaluation and feedback",
+              "Tutoring Service twice a week in selected subjects"
+            ],
+            "price": "150 EUR / month"
+          },
+      
+          "list": [
+            { "label": "\"University Match\"", "price": "130 EUR" },
+            { "label": "Admissions Strategy Planning (1-3 universities)", "price": "110 EUR", "tail": "(each additional 25 EUR)" },
+            { "label": "College Essay Refinement", "price": "110 EUR" },
+            { "label": "Resume Review and Guidance", "price": "100 EUR" },
+            { "label": "Volunteering Experience Counseling", "price": "100 EUR" },
+            { "label": "Interview Preparation", "price": "130 EUR" },
+            { "label": "Entrance Exam Preparation", "price": "200 EUR" },
+            { "label": "Application Review (1 university)", "price": "50 EUR" },
+            { "label": "Application Review (3 universities)", "price": "100 EUR" },
+            { "label": "Application Review (5 universities)", "price": "150 EUR" },
+            { "label": "Moving Abroad Services from", "price": "100 EUR" },
+            { "label": "1 Tutoring lesson in any subject", "price": "25 EUR" },
+            { "label": "5 Tutoring lessons in any subject", "price": "100 EUR" }
+          ],
+      
+          "form": {
+            "title": "FILL OUT THE FORM TO PURCHASE THE DESIRABLE OPTION",
+            "subtitle": "We are available 24/7. After filling out the form, we will contact you to share the billing and your provider information.",
+            "name": "Your full name",
+            "name_ph": "John Smith",
+            "email": "Your e-mail",
+            "email_ph": "example@gmail.com",
+            "choosePackage": "Choose preferred package",
+            "package_ph": "Select a package",
+            "packages": [
+              { "label": "PACKAGE NO 1: Basic", "value": "PACKAGE NO 1: Basic" },
+              { "label": "PACKAGE NO 2: High School (grade 9-11)", "value": "PACKAGE NO 2: High School (grade 9-11)" },
+              { "label": "PACKAGE NO 3: Extra-curricular", "value": "PACKAGE NO 3: Extra-curricular" },
+              { "label": "PACKAGE NO 4: Academic Guidance", "value": "PACKAGE NO 4: Academic Guidance" },
+              { "label": "PACKAGE NO 5: U-Focus", "value": "PACKAGE NO 5: U-Focus" }
+            ],
+            "chooseAddon": "Choose preferred additional option",
+            "addon_ph": "Select an additional option",
+            "addons": [
+              { "label": "Academic evaluation and tutoring service twice a week in selected subjects", "value": "Academic evaluation and tutoring service twice a week in selected subjects" },
+              { "label": "\"University Match\"", "value": "University Match" },
+              { "label": "Admissions Strategy Planning (1-3 universities)", "value": "Admissions Strategy Planning (1-3 universities)" },
+              { "label": "College Essay Refinement", "value": "College Essay Refinement" },
+              { "label": "Resume Review and Guidance", "value": "Resume Review and Guidance" },
+              { "label": "Volunteering Experience Counseling", "value": "Volunteering Experience Counseling" },
+              { "label": "Interview Preparation", "value": "Interview Preparation" },
+              { "label": "Entrance Exam Preparation", "value": "Entrance Exam Preparation" },
+              { "label": "Application Review (1 university)", "value": "Application Review (1 university)" },
+              { "label": "Application Review (3 universities)", "value": "Application Review (3 universities)" },
+              { "label": "Application Review (5 universities)", "value": "Application Review (5 universities)" },
+              { "label": "Moving Abroad Services", "value": "Moving Abroad Services" },
+              { "label": "1 Tutoring lesson in any subject", "value": "1 Tutoring lesson in any subject" },
+              { "label": "5 Tutoring lessons in any subject", "value": "5 Tutoring lessons in any subject" }
+            ]
+          },
+      
+          "purchase": {
+            "preview_ok": "Purchase request looks good (preview).",
+            "sent": "Email sent successfully!",
+            "error": "Failed to send email. Please try again."
+          }
+        },
+            "contacts": {
+              "title": "Contacts",
+              "instagram_handle": "u-focus",
+              "facebook_handle": "u-focus",
+              "email_line": "If there are any unanswered questions left, reach us via e-mail: ufocus.education@gmail.com",
+              "reply_time": "Approximate reply time is 1 day."
+            }
+          
+  }
+  
+  

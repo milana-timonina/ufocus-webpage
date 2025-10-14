@@ -33,13 +33,13 @@
   
 .section h3 {
     font-weight: 550px;
-    font-size: clamp(16px, 3.5vw, 20px);
+    font-size: clamp(16px, 17px, 20px);
     margin-bottom: 10px;
 }
   
 .section p {
     font-weight: 400;
-    font-size: clamp(12px, 1.3vw, 20px);
+    font-size: clamp(12px, 14px, 20px);
     line-height: 1.6;
 }
 @media (max-width: 768px) {

@@ -1,5 +1,5 @@
 .number-name h1{
-  padding: 5.5em 3em 10px 3em;
+  padding: 7% 3em 10px 3em;
   font-weight: 600;
   font-size: 25px;
 }
@@ -53,6 +53,7 @@
     font-size: 14px;
   }
   
+  
   @media (max-width: 600px) {
     .number-name h1{
       padding: 5.7em 0 10px 3.4em;
@@ -77,3 +78,4 @@
     padding: 20px;
   }
 }
+

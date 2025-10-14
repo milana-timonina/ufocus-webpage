@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html { scroll-behavior: smooth; }
 *{
   padding: 0;
   margin: 0;
@@ -18,6 +19,12 @@ a{
   width: 100%;
   margin: auto;
 }
+
+:root { color-scheme: light; }
+html,body,#root { height:100%; }
+body { margin:0; padding-top:64px; }
+*{ box-sizing:border-box; }
+
 @keyframes fadeIn {
   0%{
     opacity: 0;
@@ -26,3 +33,4 @@ a{
     opacity: 1;
   }
 }
+
