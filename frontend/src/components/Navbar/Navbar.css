@@ -1,0 +1,101 @@
+.navbar {
+    width: 100vw;
+    position: fixed;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 100;
+    background-color: white;
+}
+
+.navbar .logo {
+    width: 106px;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 46px;
+    color: #101112;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-menu .active {
+    font-weight: 600;
+    color: #101112;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.language-selector {
+    margin-left: 10px;
+}
+
+#language-select {
+    padding: 5px;
+    font-size: 14px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+#language-select:hover {
+    font-weight: 550;
+}
+
+.navbar-menu li {
+    cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+    .navbar{
+        padding-left: 4.5em;
+    }
+    .navbar .logo {
+        width: 100px;
+    }
+    .navbar-menu {
+        gap: 20px;
+        font-size: 14px;
+    }
+    .navbar-right {
+        gap: 30px;
+    }
+    .navbar-right img {
+        width: 22px;
+    }
+    .navbar-right button {
+        padding: 8px 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar .logo {
+        width: 95px;
+    }
+    .navbar-menu {
+        gap: 15px;
+        font-size: 14px;
+    }
+    .navbar-right {
+        gap: 20px;
+    }
+    .navbar-right img {
+        width: 20px;
+    }
+    .navbar-right button {
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 830px) {
+    .navbar-menu {
+        display: none;
+    }
+}

@@ -1,0 +1,79 @@
+.number-name h1{
+  padding: 5.5em 3em 10px 3em;
+  font-weight: 600;
+  font-size: 25px;
+}
+.number-name p{
+  padding-left: 4.7em;
+  padding-bottom: 10px;
+}
+
+.services1 {
+    width: 100%;
+    max-width: 100%;
+    padding: 1em 4.7em 0px 4.7em;
+  }
+  .service-block {
+    border-radius: 2px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .service-header {
+    background-color: #67559E;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .service-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-block.open .arrow {
+    transform: rotate(180deg);
+  }
+
+  .service-content {
+    background-color: #EEF1F7;
+    color: #333;
+    padding: 30px;
+    line-height: 1.6;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 600px) {
+    .number-name h1{
+      padding: 5.7em 0 10px 3.4em;
+      font-weight: 600;
+      font-size: 20px;
+    }
+    .number-name p{
+      max-width: 700px;
+      font-size: 14px;
+      padding-left: 4.8em;
+      padding-bottom: 10px;
+    }
+  .services1 {
+    padding: 10px 4.2em 15px 4.2em;
+  }
+
+  .service-header h2 {
+    font-size: 15px;
+  }
+  .service-content {
+    font-size: 13px;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,72 @@
+.why-choose-us {
+    text-align: center;
+    padding: 66px 70px 66px 70px;
+    background-color: #fafafa;
+  }
+  
+.why-choose-us h2 {
+    font-weight: 650;
+    font-size: clamp(23px, 1.2vw, 30px);
+    margin-bottom: 0px;
+}
+  
+.section {
+    display: flex;
+    flex-wrap: row; 
+    align-items: center;
+    margin: 60px 0;
+    gap: 20px; /* Adds spacing between image and text */
+}
+  
+.section img {
+    width: 100%; /* Images scale relative to their container */
+    max-width: 300px; /* Restrict maximum size */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevents the image from shrinking too much */
+    transition: all 0.3s ease-in-out;
+}
+  
+.section div {
+    max-width: 500;
+    text-align: left;
+}
+  
+.section h3 {
+    font-weight: 550px;
+    font-size: clamp(16px, 3.5vw, 20px);
+    margin-bottom: 10px;
+}
+  
+.section p {
+    font-weight: 400;
+    font-size: clamp(12px, 1.3vw, 20px);
+    line-height: 1.6;
+}
+@media (max-width: 768px) {
+    .section img {
+        max-width: 200px; /* Images get smaller as screen shrinks */
+    }
+
+    .section {
+        gap: 15px; /* Adjust spacing between image and text */
+    }
+}
+
+@media (max-width: 550px) {
+    .section {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center-align for better look */
+    }
+
+    .section img {
+        max-width: 150px; /* Further reduce image size */
+        margin-bottom: 7px; /* Space between image and text */
+    }
+
+    .section div {
+        text-align: center; /* Center-align text for small screens */
+    }
+    .section{
+        margin-bottom: 15px;
+    }
+}

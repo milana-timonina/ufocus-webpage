@@ -1,0 +1,32 @@
+.contacts {
+    color: #101112;
+    padding: 6.5em 4.5em 30px 4.5em;
+  }
+  
+  .contacts h2 {
+    font-size: 28px;
+    padding-bottom: 40px;
+    font-weight: 600;
+  }
+
+  .contacts p{
+    padding-top: 15px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .contact-item img {
+    width: 24px; 
+    height: 24px;
+    margin-right: 12px; 
+  }
+  
+  .contact-name {
+    font-size: 18px;
+    color: #101112;
+  }
+  
